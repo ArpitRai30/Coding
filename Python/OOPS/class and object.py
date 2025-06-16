@@ -216,9 +216,8 @@ s1 = student()'''  #constructor overload is not allowed so it will output the la
 
 
 
-#WAP that has a class student that stores roll number, name and marks(in three
-#sub)of the students. Display the information(roll number, name and total marks)
-#stored about the student
+#WAP that has a class student that stores roll number, name and marks(in three sub)of the students. Display the
+#information(roll number, name and total marks) stored about the student
 '''class student():
     def __init__(self):
         self.n = input("Enter name of student:")
