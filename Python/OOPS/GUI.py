@@ -331,6 +331,8 @@ b.grid(row=2, column=0, columnspan=2, padx=5)
 
 lb = Label(win, text= "Sum:")
 lb.grid(row=3, columnspan=2, pady=5)
+
+win.mainloop()
 '''
 
 
@@ -343,49 +345,5 @@ win = Tk()
 win.geometry("560x450")
 spin = Spinbox(win, from_=0, to=10)
 spin.pack()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
